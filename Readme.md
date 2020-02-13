@@ -1,1 +1,1 @@
-Starter-kit
+Starter-kit project
