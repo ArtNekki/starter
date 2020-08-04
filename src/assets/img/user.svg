@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="308px" height="308px" viewBox="0 0 308 308" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>Untitled</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-2.3%" y="-1.7%" width="104.7%" height="104.7%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="user" filter="url(#filter-1)" transform="translate(4.000000, 2.000000)" fill="white" fill-rule="nonzero">
+            <path d="M149.996,0 C67.157,0 0.001,67.158 0.001,149.997 C0.001,232.834 67.157,299.997 149.996,299.997 C232.835,299.997 299.996,232.834 299.996,149.997 C299.996,67.156 232.835,0 149.996,0 Z M150.453,220.763 L150.453,220.761 L149.537,220.761 L85.465,220.761 C85.465,173.905 126.617,173.916 135.749,161.664 L136.794,156.077 C123.964,149.575 114.907,133.899 114.907,115.565 C114.907,91.411 130.619,71.827 149.996,71.827 C169.373,71.827 185.085,91.411 185.085,115.565 C185.085,133.743 176.189,149.321 163.53,155.926 L164.72,162.275 C174.739,173.933 214.522,174.693 214.522,220.763 L150.453,220.763 Z" id="Shape"></path>
+        </g>
+    </g>
+</svg>
