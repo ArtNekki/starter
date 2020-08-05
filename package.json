@@ -12,6 +12,7 @@
   "dependencies": {
     "baron": "^3.0.3",
     "chart.js": "^2.9.3",
+    "chartjs-plugin-datalabels": "^0.7.0",
     "choices.js": "^7.0.0",
     "gulp-gh-pages": "^0.5.4",
     "har-validator": "^5.1.3",

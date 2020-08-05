@@ -7,6 +7,7 @@ import './utils/polyfill';
 // import './modules/CustomScroll';
 
 import 'chart.js';
+import ChartDataLabels from 'chartjs-plugin-datalabels';
 
 
 // Start chart
@@ -96,6 +97,7 @@ var chart1 = document.getElementById('myChart1');
 // Chart.defaults.global.legend.display = false;
 
 var myChart1 = new Chart(chart1, {
+  plugins: null,
   type: 'bar',
   data: {
     labels: ["Аренда", "Жилая", "178-Ф", "169-Ф3", "Доля города"],
@@ -130,6 +132,54 @@ var myChart1 = new Chart(chart1, {
         },
         gridLines: {
           // zeroLineColor: '#ffcc33'
+        }
+      }]
+    }
+  }
+});
+
+
+var chart2 = document.getElementById('myChart2');
+
+var myChart2 = new Chart(chart2, {
+  plugins: [ChartDataLabels],
+  type: 'bar',
+  data: {
+    labels: ["Данные-1", "Данные-2", "Данные-3", "Данные-4", "Данные-5", "Данные-6", "Данные-7", "Данные-8"],
+    datasets: [{
+      // label: "Lost",
+      fill: false,
+      lineTension: 0,
+      data: [80, 66, 32, 44, 20, 56, 12, 74],
+      pointBorderColor: "#536c79",
+      borderColor: ['#f6b4da', '#92ddea', '#71d086', '#aa7dd4', '#f6b4da', '#92ddea', '#71d086', '#aa7dd4'],
+      backgroundColor: ['#f6b4da', '#92ddea', '#71d086', '#aa7dd4', '#f6b4da', '#92ddea', '#71d086', '#aa7dd4'],
+      borderWidth: 2,
+      // showLine: true,
+    }]
+  },
+  options: {
+    scales: {
+      xAxes: [{
+
+        // display: false,
+        ticks: {
+          // display: false,
+          fontColor: '#536c79'
+        },
+        gridLines: {
+          zeroLineColor: '#ffffff',
+          color: '#ffffff'
+        }
+      }],
+      yAxes: [{
+        // display: false,
+        ticks: {
+          display: false
+        },
+        gridLines: {
+          zeroLineColor: '#ffffff',
+          color: '#ffffff'
         }
       }]
     }
