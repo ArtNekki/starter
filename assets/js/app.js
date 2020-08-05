@@ -37707,6 +37707,11 @@ var myChart2 = new Chart(chart2, {
     }]
   },
   options: {
+    plugins: {
+      datalabels: {
+        anchor: 'top'
+      }
+    },
     scales: {
       xAxes: [{
         // display: false,
