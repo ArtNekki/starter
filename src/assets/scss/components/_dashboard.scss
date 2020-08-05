@@ -10,6 +10,7 @@
 
     &--bg {
       background: #63c2de;
+      border-radius: 8px;
     }
   }
 
@@ -19,6 +20,7 @@
    align-items: center;
    box-shadow: 0 0 5px rgba(#536c79, 0.2);
    flex-grow: 1;
+   border-radius: 8px;
 
     &:not(:last-of-type) {
       margin-right: 30px;
@@ -159,6 +161,7 @@
 
   &-chart {
     padding: 15px;
+    border-radius: 8px;
     box-shadow: 0 0 5px rgba(#536c79, 0.2);
 
     &:first-child {
